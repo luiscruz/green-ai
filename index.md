@@ -37,7 +37,12 @@ If you have suggestions for other readings consider [sending a pull request][git
   {%- if publication.video %}
     [<ion-icon name="logo-youtube"></ion-icon>]({{publication.video}})
   {% endif -%}
+{%-for tag in publication.tags %}<span class="badge">{{tag}}</span>{% endfor %}
 </p>
+{%- if publication.annotation %}
+> <small>{{publication.annotation | truncate: 300}} [Read more.]({{publication.url | relative_url}})</small>
+{% endif -%}
+
 {% endfor %}
 
 
