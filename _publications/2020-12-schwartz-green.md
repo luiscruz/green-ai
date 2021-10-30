@@ -23,5 +23,4 @@ image: "schwartz-green.jpg"
 tags:
   - Red AI
   - Position Paper
-annotation: ""
 ---

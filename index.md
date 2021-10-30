@@ -1,7 +1,7 @@
+Academic publications that study environmentally sustainable artificial intelligence – **Green AI**.
+In particular, this bibliography focus on research that aims at making the development of AI systems more friendly to the environment.
 
-Green AI - Annotated Literature
-
-If you have suggestions for other readings consider [sending a pull request][github-repo]! Contributions are welcome! 😉
+Contributions are welcome! If you have suggestions for other readings consider sending a pull request or creating an issue in the [Github repository][github-repo]!  😉
 
 # Papers
 
