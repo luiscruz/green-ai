@@ -18,5 +18,7 @@ image: "lacoste-quantifying.png"
 tags:
   - Estimating Energy
   - Carbon Emissions
-annotation: ""
+  - Tool
+  - Position paper
+annotation: "The paper presents a tool to estimate carbon emissions: the Machine Learning Emissions Calculator. Based on the Hardware type (e.g, Tesla P100), cloud provider (e.g., Google Cloud Platform), location of the data centre, and number of hours used, it computes the total carbon emitted in kg CO2eq. In addition, the paper also provides actionable advice on how to reduce the environmental impact of the Machine Learning domain."
 ---
