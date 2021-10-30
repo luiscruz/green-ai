@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<div class='container'>
+<h1> Publications </h1>
+{%if page.image %}
+<img class="publication-img" src="{{'/img/' | append: page.image | relative_url}}" />
+{% endif %}
+<h2> {{page.title}} </h2>
+{%for tag in page.tags %}
+<span class="badge">{{tag}}</span>
+{% endfor %}
+<p><strong>Authors:</strong> {{page.author}}</p>
+<p><strong>Published in:</strong> {% if page.journal %}
+        {{page.journal}}{% if page.pages %} (pp. {{page.pages}}){% endif %}.
+      {% endif -%}
+</p>
+
+<p align="justify"><strong>Abstract:</strong> {{page.abstract}}</p>
+
+<p align="justify"><strong>Annotation:</strong> {{page.annotation}}</p>
+
+
+
+{%if page.bibtex %}
+<strong>Bibtex</strong> (<a class="clipboard" data-clipboard-text="{{page.bibtex}}">copy</a>):
+{% highlight bibtex %}
+{{page.bibtex}}
+{% endhighlight %}
+{% endif %}
+
+<p><strong>Read me:</strong>
+{% if page.full-text %}
+  <a href="{{page.full-text}}">Full-text</a>.
+{% endif %}
+{% if page.arxiv %}
+  <a href="{{page.arxiv}}">Arxiv</a>.
+{% endif %}
+{% if page.preprint %}
+  <a href="{{page.preprint}}">Preprint</a>.
+{% endif %}
+{% if page.doi %}
+  DOI:   <a href="https://doi.org/{{page.doi}}">{{page.doi}}</a>.
+{% endif %}
+{% if page.slides %}
+  <a href="{{page.slides}}">🪧Slides</a>.
+{% endif %}
+{% if page.video %}
+  <a href="{{page.video}}">🎥Video</a>.
+{% endif %}
+{% if page.replication-package %}
+  <a href="{{page.replication-package}}">👩‍💻Replication package</a>.
+{% endif %}
+</p>
+
+
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+<script>
+  var clipboard = new ClipboardJS('.clipboard');
+</script>
