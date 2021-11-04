@@ -9,7 +9,7 @@ Contributions are welcome! If you have suggestions for other readings consider s
 
 {% assign currentdate = publication.year %}
 {% if currentdate != date %}
-### {{ currentdate }}
+### 📅 **{{ currentdate }}**
 {% assign date = currentdate %} 
 {% endif %}
 
