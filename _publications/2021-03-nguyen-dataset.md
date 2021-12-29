@@ -30,9 +30,10 @@ tags:
   - Data Efficiency
   - Green Data
 annotation: |-
-  This paper presents a technique called Kernel Inducing Points (KIP) to generate new smaller datasets that yield similar performance when used to train a machine learning model. In other words, KIP is an algorithm for *dataset distillation*.
+  This paper presents a technique called Kernel Inducing Points (KIP) to generate new smaller datasets that yield similar performance when used to train a machine learning model. In other words, KIP is an algorithm for **dataset distillation**.
   Although the paper does not primarily focus on energy efficiency, it shows an an enormous potential of using dataset distillation to reduce the energy consumption of machine learning models – in particular, neural networks.
   Besides improving efficiency, this technique can enable privacy-preservation on datasets, since the generated datasets are different from its raw version. This is different from the concept of extracting coresets – a subset selected from the original dataset that preserves or approximates the original properties. 
+  
   The technique is tested for different compressed dataset sizes, yielding similar performance results when compressing datasets by one or two orders of magnitude. Note: sometimes, the results in the paper are a bit rushed, but all the details are provided in the appendices.
-image: images/nguyen2021dataset.png
+image: nguyen-dataset.png
 ---
