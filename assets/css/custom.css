@@ -4,6 +4,7 @@
     color:white;
     background-color: #7EAF73;
     font-size: 10pt;
+    white-space: nowrap;
 }
 
 .publication-img{
@@ -12,4 +13,26 @@
     padding:0;
     border: 1px solid black;
     margin-left: 10px;
+}
+
+.text-divider {
+  display: flex;
+  align-items: center;
+  --text-divider-gap: 1rem; // set a customizable gap between label and lines
+}
+
+.text-divider::before,
+.text-divider::after {
+  content: '';
+  height: 1px;
+  background-color: silver;
+  flex-grow: 1;
+}
+
+.text-divider::before {
+  margin-right: var(--text-divider-gap);
+}
+
+.text-divider::after {
+  margin-left: var(--text-divider-gap);
 }
