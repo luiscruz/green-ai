@@ -15,6 +15,9 @@ bibtex: |-
     pages={arXiv--2309},
     year={2023}
   }
+tags:
+  - model optimization
+  - energy estimation
 annotation: 
 This paper shows an interesting approach to compress language models of code into smaller and more efficient models. The approach consists of using optimisation to deliver a model that minimises size, FLOPs (mentioned as a proxy of time, energy consumption, and carbon emission), and maximises model performance (refer to as effectiveness).
 While it seems to be a simple optimisation approach the paper proposes a few techniques that set it apart. For example, to evaluate the model performance, the authors do not train the model nor run it with a test set – they create a regression model using only the provided configuration as input. This metric is coined as effectiveness indicator.
