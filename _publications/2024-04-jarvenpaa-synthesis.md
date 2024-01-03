@@ -1,6 +1,6 @@
 ---
 layout: publication
-author: 
+author: H Järvenpää, P Lago, J Bogner, G Lewis, H Muccini, I Ozkaya
 journal: "ICSE-SEIS"
 title: "A Synthesis of Green Architectural Tactics for ML-Enabled Systems"
 year: 2024
