@@ -2,7 +2,7 @@
 layout: publication
 author: Jieke Shi, Zhou Yang, Hong Jin Kang, Bowen Xu, Junda He, David Lo
 journal: "ICSE-SEIS"
-title: "Tensor-Aware Energy Accounting"
+title: "Greening Large Language Models of Code"
 year: 2024
 arxiv: https://arxiv.org/pdf/2309.04076v2
 abstract: |-
