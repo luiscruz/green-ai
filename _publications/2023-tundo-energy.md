@@ -1,3 +1,4 @@
+---
 layout: publication
 author: A Tundo, M Mobilio, S Ilager, I Brandić, E Bartocci, L Mariani
 journal: "ASE"
