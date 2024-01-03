@@ -13,5 +13,4 @@ bibtex: |-
     journal={arXiv preprint arXiv:2111.00364},
     year={2021}
   }
-annotation: 
 ---

@@ -22,6 +22,4 @@ tags:
   - Cloud computing
   - Optimizing energy
   - Tool
-annotation: 
-
 ---

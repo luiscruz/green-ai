@@ -22,6 +22,4 @@ bibtex: |-
 tags:
   - Deep Learning
   - AI frameworks
-annotation:  |-
-
 ---

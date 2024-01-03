@@ -17,6 +17,4 @@ bibtex: |-
     organization={IEEE}
   }
 tags:
-annotation:  |-
-
 ---
