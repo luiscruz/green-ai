@@ -1,19 +1,18 @@
 ---
 layout: publication
 author: Jieke Shi, Zhou Yang, Hong Jin Kang, Bowen Xu, Junda He, David Lo
-journal: "ICSE"
-title: "Towards Smaller, Faster, and Greener Language Models of Code"
-year: 2023
+journal: "ICSE-SEIS"
+title: "Greening Large Language Models of Code"
+year: 2024
 arxiv: https://arxiv.org/pdf/2309.04076v2
 abstract: "Large language models of code have shown remarkable effectiveness across various software engineering tasks. Despite the availability of many cloud services built upon these powerful models, there remain several scenarios where developers cannot take full advantage of them, stemming from factors such as restricted or unreliable internet access, institutional privacy policies that prohibit external transmission of code to third-party vendors, and more. Therefore, developing a compact, efficient, and yet energy-saving model for deployment on developers' devices becomes essential. 
 To this aim, we propose Avatar, a novel approach that crafts a deployable model from a large language model of code by optimizing it in terms of model size, inference latency, energy consumption, and carbon footprint while maintaining a comparable level of effectiveness. The key idea of Avatar is to formulate the optimization of language models as a multi-objective configuration tuning problem and solve it with the help of a Satisfiability Modulo Theories (SMT) solver and a tailored optimization algorithm. The SMT solver is used to form an appropriate configuration space, while the optimization algorithm identifies the Pareto-optimal set of configurations for training the optimized models using knowledge distillation. We evaluate Avatar with two popular language models of code, i.e., CodeBERT and GraphCodeBERT, on two popular tasks, i.e., vulnerability prediction and clone detection. We use Avatar to produce optimized models with a small size (3 MB), which is 160x smaller than the original large models. On the two tasks, the optimized models significantly reduce the energy consumption (up to 184x less), carbon footprint (up to 157x less), and inference latency (up to 76x faster), with only a negligible loss in effectiveness (1.67\% on average)."
 bibtex: |-
-  @article{shi2023towards,
-    title={Towards Smaller, Faster, and Greener Language Models of Code},
+  @article{shi2024greening,
+    title={Greening Large Language Models of Code},
     author={Shi, Jieke and Yang, Zhou and Kang, Hong Jin and Xu, Bowen and He, Junda and Lo, David},
-    journal={arXiv e-prints},
-    pages={arXiv--2309},
-    year={2023}
+    journal={ICSE-SEIS},
+    year={2024}
   }
 tags:
   - model optimization
