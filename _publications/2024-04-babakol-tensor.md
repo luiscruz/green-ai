@@ -12,7 +12,7 @@ bibtex: |-
     title={Tensor-Aware Energy Accounting},
     author={Babakol, Timur and Liu, Yu David},
     journal={ICSE-SEIS},
-    year={2023}
+    year={2024}
   }
 tags:
 ---
