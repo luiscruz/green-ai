@@ -2,7 +2,7 @@
 layout: publication
 author: Jieke Shi, Zhou Yang, Hong Jin Kang, Bowen Xu, Junda He, David Lo
 journal: "ICSE-SEIS"
-title: "Greening Large Language Models of Code"
+title: "Tensor-Aware Energy Accounting"
 year: 2024
 arxiv: https://arxiv.org/pdf/2309.04076v2
 abstract: "Large language models of code have shown remarkable effectiveness across various software engineering tasks. Despite the availability of many cloud services built upon these powerful models, there remain several scenarios where developers cannot take full advantage of them, stemming from factors such as restricted or unreliable internet access, institutional privacy policies that prohibit external transmission of code to third-party vendors, and more. Therefore, developing a compact, efficient, and yet energy-saving model for deployment on developers' devices becomes essential. 
