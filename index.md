@@ -6,7 +6,7 @@ Contributions are welcome! If you have suggestions for other readings consider s
 # Papers
 
 {% for publication in site.publications reversed%}
-
+{{publication.name}}
 {% assign currentdate = publication.year %}
 {% if currentdate != date %}
 ### 📅 **{{ currentdate }}**

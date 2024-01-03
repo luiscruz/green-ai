@@ -15,8 +15,4 @@ bibtex: |-
     year={2023}
   }
 tags:
-annotation:  |-
-
-  
-
 ---
